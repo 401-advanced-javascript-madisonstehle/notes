@@ -1,0 +1,23 @@
+{
+  "name": "notes",
+  "version": "1.0.0",
+  "description": "notes lab 01 - code 401n16",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madisonstehle/notes.git"
+  },
+  "author": "Madison Stehle",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/madisonstehle/notes/issues"
+  },
+  "homepage": "https://github.com/madisonstehle/notes#readme"
+}
