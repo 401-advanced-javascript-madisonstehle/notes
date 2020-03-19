@@ -19,5 +19,8 @@
   "bugs": {
     "url": "https://github.com/madisonstehle/notes/issues"
   },
-  "homepage": "https://github.com/madisonstehle/notes#readme"
+  "homepage": "https://github.com/madisonstehle/notes#readme",
+  "dependencies": {
+    "minimist": "^1.2.5"
+  }
 }
