@@ -1,10 +1,10 @@
 'use strict';
 
-// ======= import notes constructor =======
+// ========== IMPORT CONSTRUCTORS ==========
 const Input = require('../lib/input.js');
 const Notes = require('../lib/notes.js');
 
-// ======= example notes for testing =======
+// ========== EXAMPLE NOTES ==========
 // empty input
 const badInputEmpty = new Input([]);
 
@@ -20,12 +20,14 @@ const badInputBoth = new Input(['-b', '']);
 // good input!
 const goodInput =  new Input(['-a', 'This is a note']);
 
+// ========== CONDITIONS ==========
 // allows jest to "spy on" the console and watch for logs
 jest.spyOn(global.console, 'log');
 console.log = jest.fn();
 
-// ======= TESTS =======
+// ========== TESTS ==========
 
+// bad inputs
 describe('handle bad note', () => {
   it('not to print an empty add-note to the console', () => {
     let result = new Notes(badInputEmpty);
@@ -52,7 +54,7 @@ describe('handle bad note', () => {
   })
 })
 
-
+// good input
 describe('handle correctly flagged add-note', () => {
   it('print good note to console', () => {
     let result = new Notes(goodInput);
