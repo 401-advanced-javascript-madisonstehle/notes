@@ -18,6 +18,9 @@
   },
   "author": "Madison Stehle",
   "license": "MIT",
+  "bin": {
+    "notes": "node ./index.js"
+  },
   "bugs": {
     "url": "https://github.com/madisonstehle/notes/issues"
   },
