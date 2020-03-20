@@ -1,7 +1,28 @@
-# notes
-Lab 01 - Code 401n16 - A Node.js Application
+# LAB - Class 01, Code 401n16
 
+## Notes
 
+### Author: Madison Stehle
+
+### Links and Resources
+
+- [submission PR](http://xyz.com)
+- [ci/cd](https://github.com/madisonstehle/notes/actions) (GitHub Actions)
+
+### Setup
+
+#### How to initialize/run your application (where applicable)
+
+- `npm start`
+- `node index.js`
+
+#### Tests
+
+- Unit Test: `npm test`
+
+#### UML
+
+Link to an image of the UML for your application and response to events
 
 ## Credits
 - Thank you to Sonia for providing an in-depth walk through of most of this application
