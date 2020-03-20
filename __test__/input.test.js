@@ -32,7 +32,7 @@ describe('handle bad input', () => {
   it('handles wrong input', () => {
     let result = new Input(badInputB);
     expect(result.valid()).toBeFalsy();
-  })
+  });
 
   it('handles wrong flag', () => {
     let result = new Input(badInputC);
