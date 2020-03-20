@@ -30,34 +30,34 @@ console.log = jest.fn();
 // bad inputs
 describe('handle bad note', () => {
   it('not to print an empty add-note to the console', () => {
-    let result = new Notes(badInputEmpty);
+    new Notes(badInputEmpty);
     
     expect(console.log).not.toHaveBeenCalled();
   });
 
   it('not to print a wrongly flagged add-note to the console', () => {
-    let result = new Notes(badInputFlag);
+    new Notes(badInputFlag);
     
     expect(console.log).not.toHaveBeenCalled();
   });
 
   it('not to print an empty text add-note to the console', () => {
-    let result = new Notes(badInputText);
+    new Notes(badInputText);
     
     expect(console.log).not.toHaveBeenCalled();
   });
 
   it('not to print a wrongly flagged AND text add-note to the console', () => {
-    let result = new Notes(badInputBoth);
+    new Notes(badInputBoth);
     
     expect(console.log).not.toHaveBeenCalled();
-  })
-})
+  });
+});
 
 // good input
 describe('handle correctly flagged add-note', () => {
   it('print good note to console', () => {
-    let result = new Notes(goodInput);
+    new Notes(goodInput);
 
     expect(console.log).toHaveBeenCalled();
   });

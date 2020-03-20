@@ -8,9 +8,13 @@
 
 - [submission PR](https://github.com/madisonstehle/notes/pulls?q=is%3Apr+is%3Aclosed)
 - [ci/cd](https://github.com/madisonstehle/notes/actions) (GitHub Actions)
+- [npm](https://www.npmjs.com/package/notes-lab01-madisonstehle)
+
+### Documentation
+JSDoc is not running. See error message below:
+![JSDoc Error](error.PNG)
 
 ### Setup
-
 #### How to initialize/run your application (where applicable)
 
 - `npm start`
@@ -19,6 +23,7 @@
 #### Tests
 
 - Unit Test: `npm test`
+- Lint Test: `npm run lint`
 
 #### UML
 

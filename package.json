@@ -1,5 +1,5 @@
 {
-  "name": "notes",
+  "name": "notes-lab01-madisonstehle",
   "version": "1.0.0",
   "description": "notes lab 01 - code 401n16",
   "main": "index.js",
@@ -9,14 +9,15 @@
   "scripts": {
     "start": "node index.js",
     "test": "jest --verbose --coverage",
-    "lint": "eslint **/*.js"
+    "lint": "eslint **/*.js",
+    "jsdoc": "jsdoc -c ./docs/config/jsdoc.config.json"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/madisonstehle/notes.git"
   },
   "author": "Madison Stehle",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/madisonstehle/notes/issues"
   },
