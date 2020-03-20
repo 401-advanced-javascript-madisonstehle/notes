@@ -6,7 +6,7 @@
 
 ### Links and Resources
 
-- [submission PR](http://xyz.com)
+- [submission PR](https://github.com/madisonstehle/notes/pulls?q=is%3Apr+is%3Aclosed)
 - [ci/cd](https://github.com/madisonstehle/notes/actions) (GitHub Actions)
 
 ### Setup
