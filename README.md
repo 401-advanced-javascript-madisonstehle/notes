@@ -6,7 +6,7 @@
 
 ### Links and Resources
 
-- [submission PR](https://github.com/madisonstehle/notes/pulls?q=is%3Apr+is%3Aclosed)
+- [submission PR](https://github.com/madisonstehle/notes/pull/6)
 - [ci/cd](https://github.com/madisonstehle/notes/actions) (GitHub Actions)
 - [npm](https://www.npmjs.com/package/notes-lab01-madisonstehle)
 
