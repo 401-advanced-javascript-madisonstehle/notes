@@ -26,6 +26,8 @@
   },
   "homepage": "https://github.com/madisonstehle/notes#readme",
   "dependencies": {
-    "minimist": "^1.2.5"
+    "minimist": "^1.2.5",
+    "mongodb": "^3.5.5",
+    "mongoose": "^5.9.5"
   }
 }
