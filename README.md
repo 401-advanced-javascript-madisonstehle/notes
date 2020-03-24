@@ -6,7 +6,7 @@
 
 ### Links and Resources
 
-- [submission PR](https://github.com/madisonstehle/notes/pull/6)
+- [submission PR](https://github.com/madisonstehle/notes/pull/7)
 - [ci/cd](https://github.com/madisonstehle/notes/actions) (GitHub Actions)
 - [npm](https://www.npmjs.com/package/notes-lab01-madisonstehle)
 
