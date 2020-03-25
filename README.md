@@ -6,7 +6,7 @@
 
 ### Links and Resources
 
-- [submission PR](https://github.com/madisonstehle/notes/pull/6)
+- [submission PR](https://github.com/madisonstehle/notes/pull/7)
 - [ci/cd](https://github.com/madisonstehle/notes/actions) (GitHub Actions)
 - [npm](https://www.npmjs.com/package/notes-lab01-madisonstehle)
 
@@ -19,6 +19,12 @@ JSDoc is not running. See error message below:
 
 - `npm start`
 - `node index.js`
+- `notes <flag> <other content>`
+  - flags:
+    - `-a "<note content>"`, `--add "<note content>"`: add a note
+    - `-c <category name>`, `--category <category name>`: add a category (to be used in the same line as the `-a` flag)
+    - `-l <OPTIONAL category filter>`, `--list <OPTIONAL category filter>`: list notes with or without a categorical filter
+    - `-d <id>`, `--delete <id>`: delete a note by note ID
 
 #### Tests
 

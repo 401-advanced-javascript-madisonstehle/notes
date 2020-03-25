@@ -2,8 +2,6 @@
 
 'use strict';
 
-// console.log('i am here!');
-
 // ========== MODULES ==========
 const Input = require('./lib/input.js');
 const Notes = require('./lib/notes.js');
