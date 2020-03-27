@@ -11,10 +11,11 @@ class Model {
   async create(record){
     try {
       let recordToAdd = new this.model(record);
-      await recordToAdd.save(); 
+      return await recordToAdd.save(); 
     } 
     catch(e) {
       console.error('ERROR CREATING RECORD', e);
+      return false;
     }
   }
 
@@ -22,7 +23,7 @@ class Model {
     try {
       let foundRecords = await this.model.find();
 
-      foundRecords.forEach( obj => {
+      return foundRecords.forEach( obj => {
         if (category){
           if (obj.categories.includes('5e766dc5ac87d229d4091d19') && category === 'school') {
             console.log('Note ID:', obj._id);
@@ -47,12 +48,20 @@ class Model {
       });
     }
     catch(e) {
-      console.error('ERROR FINDING RECORD', e)
+      console.error('ERROR FINDING RECORD', e);
+      return false;
     }
   }
 
   async update(_id, changedRecord){
-
+    try {
+      let newRecord = await this.model.findByIdAndUpdate({_id}, changedRecord);
+      console.log('UPDATED RECORD', newRecord);
+      return newRecord;
+    }
+    catch(e) {
+      console.error('ERROR UPDATING RECORD', e);
+    }
   }
 
   async delete(_id){
@@ -60,6 +69,7 @@ class Model {
       let deletedRecord = await this.model.deleteOne({ _id: _id });
     } catch(e) {
       console.error('ERROR DELETING RECORD', e);
+      return false;
     }
   }
 
